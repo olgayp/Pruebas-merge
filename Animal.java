@@ -23,5 +23,7 @@ public class Animal {
         this.edad = pEdad;
     }
 
-
+    public void comer(){
+        System.out.println("El animal " + nombre + " está comiendo.");
+    }
 }
